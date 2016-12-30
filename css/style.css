@@ -1,1 +1,17 @@
+#wrapper {
+    width: 960px;
+    margin: 0 auto; /*сверху и снизу по 0 , справа и слева подбир автомат */
+}
 
+#logo {
+    width: 204px;
+    height: 136px;
+    float: left;
+    margin-left: -1px;
+}
+
+#menu {
+    width: 960px;
+    height: 70px;
+    background: url(../images/menu_bg.png) no-repeat;
+}
