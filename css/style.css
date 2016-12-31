@@ -1,6 +1,28 @@
+body {
+    background: url(../images/main_bg.png);
+    font: 14px/1.5 Arial, Verdana, sans-serif;
+    color: #353535;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+h2{
+    font-size: 24px;
+}
 #wrapper {
     width: 960px;
-    margin: 0 auto; /*сверху и снизу по 0 , справа и слева подбир автомат */
+    margin: 0 auto;
+    /*сверху и снизу по 0 , справа и слева подбир автомат */
+}
+
+#header {
+    overflow: hidden;
 }
 
 #logo {
@@ -14,4 +36,47 @@
     width: 960px;
     height: 70px;
     background: url(../images/menu_bg.png) no-repeat;
+}
+
+#menu ul {
+    padding-left: 40px;
+    padding-top: 23px;
+    overflow: hidden;
+}
+
+#menu ul li {
+    float: left;
+    font: bold 18px Arial, Verdana, sans-serif;
+    color: #ffffff;
+    margin-right: 70px;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    /*цвет не наследуется*/
+    text-decoration: none;
+}
+
+#menu ul li span {
+    color: #ff1600;
+}
+
+.current, #menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#menu .phone {
+    float: right;
+    margin-right: 30px;
+}
+
+.divider {
+    width: 552px;
+    height: 36px;
+    background: url(../images/divider.png) no-repeat;
+    margin: 3px auto 28px auto;
+}
+#content {
+    width: 590px;
+    margin: 0 auto;
 }
