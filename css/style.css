@@ -3,7 +3,6 @@ body {
     font: 14px/1.5 Arial, Verdana, sans-serif;
     color: #353535;
     text-align: center;
-
 }
 
 h1 {
@@ -12,9 +11,19 @@ h1 {
     line-height: 1.4;
 }
 
-h2{
+h2 {
     font-size: 24px;
 }
+
+a {
+    color: #353535;
+    text-decoration: none;
+}
+
+a:hover, .current, #menu ul li a:hover {
+    text-decoration: underline;
+}
+
 #wrapper {
     width: 960px;
     margin: 0 auto;
@@ -54,15 +63,10 @@ h2{
 #menu ul li a {
     color: #ffffff;
     /*цвет не наследуется*/
-    text-decoration: none;
 }
 
 #menu ul li span {
     color: #ff1600;
-}
-
-.current, #menu ul li a:hover {
-    text-decoration: underline;
 }
 
 #menu .phone {
@@ -71,18 +75,64 @@ h2{
 }
 
 .divider {
-    width: 552px;
+    width: 547px;
     height: 36px;
     background: url(../images/divider.png) no-repeat;
-    margin: 50px auto 34px auto;
+    margin: 3px auto 27px auto;
 }
+
 #content {
     width: 590px;
     margin: 0 auto;
 }
+
 .red_headline {
     font-size: 30px;
     font-weight: bold;
     color: #a03131;
     margin-top: 28px;
+}
+
+#social {
+    width: 300px;
+    margin: 15px auto 7px auto;
+}
+
+#social li {
+    text-align: left;
+    height: 39px;
+    padding-left: 60px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#social li a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#fb {
+    background: url(../images/fb.png) no-repeat;
+}
+
+#twitter {
+    background: url(../images/twitter.png) no-repeat;
+}
+
+#rss {
+    background: url(../images/rss.png) no-repeat;
+}
+
+#dribbble {
+    background: url(../images/dribbble.png) no-repeat;
+}
+
+#linkedin {
+    background: url(../images/linkedin.png) no-repeat;
+}
+#footer {
+    padding-bottom: 27px;
+}
+#footer p {
+    color: #a03131;
 }
